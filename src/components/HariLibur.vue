@@ -127,7 +127,6 @@ const bulanList = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli
 
   <p v-if="!loading && filteredLibur.length === 0" class="ifnotfound">Data Libur Tidak Ditemukan</p>
   <a href="hariliburcalendar.html" class="button-to-calendar">Lihat Versi Calendar</a>
-  <a href="index.html" class="button-to-index">Kembali Ke Halaman Awal</a>
 
 </template>
 
@@ -225,7 +224,7 @@ const bulanList = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli
   color: #555;
 }
 
-.button-to-calendar {
+.button-to-index {
   border: none; /* atau border: 2px solid white; */
   box-shadow: 1px 1px 3px rgba(99, 98, 98, 0.3);
   background-color: rgb(53, 36, 160);
@@ -243,11 +242,11 @@ const bulanList = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli
   margin-bottom: 20px;
 }
 
-.button-to-calendar:hover {
+.button-to-index:hover {
   background: rgb(116, 113, 218);
 }
 
-.button-to-index {
+.button-to-calendar {
   border: none; /* atau border: 2px solid white; */
   box-shadow: 1px 1px 3px rgba(99, 98, 98, 0.3);
   background-color: rgb(160, 36, 100);
@@ -265,7 +264,7 @@ const bulanList = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli
   margin-bottom: 20px;
 }
 
-.button-to-index:hover {
+.button-to-calendar:hover {
   background: rgb(218, 113, 181);
 }
 
