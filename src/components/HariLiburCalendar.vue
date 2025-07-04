@@ -88,8 +88,6 @@ const calendarCells = computed(() => {
         <option v-for="(nama, index) in bulanList" :key="index + 1" :value="index + 1">{{ nama }}</option>
       </select>
     </label>
-
-    <input type="text" v-model="searchTerm" placeholder="Cari Nama Hari Libur..." class="search-input" />
   </div>
 
   <p v-if="loading">Loading...</p>
