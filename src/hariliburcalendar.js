@@ -1,4 +1,4 @@
 import{createApp} from "vue";
-import hariLiburCalendar from "./components/hariLiburCalendar.vue"
+import HariLiburCalendar from "./components/HariLiburCalendar.vue"
 
-createApp(hariLiburCalendar).mount("#app");
+createApp(HariLiburCalendar).mount("#app");
