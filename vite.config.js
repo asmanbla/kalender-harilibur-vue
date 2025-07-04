@@ -9,7 +9,6 @@ export default defineConfig({
       input: {
         daftarHariLibur: "harilibur.html",
         hariLiburBulan8: "harilibur8.html",
-        hariLiburBulan825: "harilibur825.html",
         hariLiburCalendar: "hariliburcalendar.html",
       }
     }
